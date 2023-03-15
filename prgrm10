@@ -1,0 +1,9 @@
+exam_marks = Hash.new 0
+exam_marks['c++'] = 78
+exam_marks['python'] = 98
+exam_marks['DBMS'] = 95
+total_marks = 0
+exam_marks.each {|key,value|
+              total_marks +=value
+        }
+puts "Total Marks: "+total_marks.to_s
