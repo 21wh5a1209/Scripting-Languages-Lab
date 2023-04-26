@@ -1,0 +1,4 @@
+@names = ('SREE', 'VYSHU', 'VYSHNAVI');
+my @others =('IT','BVRIT');
+push @others, @names;
+print "@others\n";
