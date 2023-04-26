@@ -1,0 +1,4 @@
+my @names = ('SREE','VYSHU','VYSHNAVI');
+my @others =('IT','BVRIT');
+unshift @others, @names;
+print "@others\n";
